@@ -27,4 +27,13 @@ Travails à réaliser :
 - :x: Création de la partie Projets
 
 # Authentification : 
-- 
+- :x: Créer le model
+- :x: Créer le fichier de configuration de la base de donnée
+- :x: Migrer le model vers la BDD
+- :x: Créer le viewModel
+- :x: Creer le converter
+- :x: Mettre en place le controller
+- :x: Mettre en place la fonction get Authentification
+- :x: Mettre en place la view associé
+- :x: Mettre en place la fonction post authentifier (Session)
+- :x: Mettre en place la view d'acceuil
