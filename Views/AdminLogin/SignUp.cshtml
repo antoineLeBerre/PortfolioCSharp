@@ -1,0 +1,30 @@
+@model PortofolioAdmin.Services.Viewmodels.AdminLoginViewmodel
+
+<div class="row no-gutters full-page justify-content-center align-items-center ">
+  <div class="card col-md-4">
+    <div class="card-header">
+      <h3 class="card-title">Créer administrateur</h3>
+    </div>
+    <div class="card-body">
+      <form asp-action="SignUp" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+          <label asp-for="Login" class="" for="exampleInInputLoginputEmail1"></label>
+          <input asp-for="Login" type="text" id="InputLogin" class="form-control" placeholder="Login">
+          <span asp-validation-for="Login" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label asp-for="Password" for="InputPassword1">Mot de passe</label>
+          <input asp-for="Password" type="password" class="form-control" id="InputPassword1" placeholder="Password">
+          <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Créer</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+@section Scripts
+{
+  @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

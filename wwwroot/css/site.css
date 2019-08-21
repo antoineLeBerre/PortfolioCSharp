@@ -44,6 +44,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  min-height: 92vh;
 }
 .footer {
   position: absolute;
@@ -53,4 +54,9 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/* Démarrage css */
+.full-page{
+  min-height: 83vh;
 }

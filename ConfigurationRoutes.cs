@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 
-namespace Portofolio
+namespace PortofolioAdmin
 {
     public static class ConfigurationRoutes
     {
