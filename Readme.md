@@ -1,12 +1,11 @@
-# *Portfolio*
+# *Portfolio Admib*
 
-Création d'un site web contenant mon portefolio
+Création de la oartie admin de mon portefolio
 Ce site est fait en ASP .net Core MVC 
 
 Travails à faire :
 - :heavy_check_mark: Mise en place de la solution
-- :x: Réaliser la partie back = Admin
-- :x: Création de la partie front
+- :x: Réaliser la partie Admin
 
 # Mise en place de la solution
 - :heavy_check_mark: Mettre en place les dossiers Supervisor, viewmodel, Converter 
